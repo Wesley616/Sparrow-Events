@@ -1,4 +1,18 @@
-.bg-roxo
+html
 {
-    background-color: #8ad401;
+    font-family: "Roboto" !important;
+}
+.color
+{
+    color: black;
+    background-color: #00a2ff;
+    border-color: #000000;
+}
+img
+{
+    width: 150px;
+}
+.bg-color
+{
+    background-color: #00a2ff;
 }
