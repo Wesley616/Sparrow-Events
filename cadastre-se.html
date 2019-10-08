@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/sparrow-events.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <title>Sparrow Events-Cadastre-se</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-color">
+    <a class="navbar-brand" href="index.html">Sparrow Events</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Cadastre-se</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Eventos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Acontecendo</a>
+            <a class="dropdown-item" href="#">Previstos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Encerrados</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0 color button" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Seja bem vindo!</h1>
+        <p>Realize seu cadastro</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <fieldset>
+          <legend>Dados pessoais</legend>
+          <div class="row">
+            <div class="col-sm-2">
+              <img src="assets/img/pessoa.jpg">
+            </div>
+            <div class="col-sm-10">
+              <!--NOME-->
+              <div class="form-group row">
+                <label for="nome" class="col-form-label">Nome</label>
+                <input type="text" class="form-control " id="nome">
+              </div>
+              <!--Data de nascimento-->
+              <div class="form-group row">
+                <label for="datanascimento">Data de Nascimento</label>
+                <input type="date" class="form-control" id="datanascimento">
+              </div>
+              <!--Sexo-->
+              <div class="form-group row">
+                <label>Sexo</label>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="Feminino" name="sexo" class="custom-control-input">
+                  <label class="custom-control-label" for="Feminino">Feminino</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="Masculino" name="sexo" class="custom-control-input">
+                  <label class="custom-control-label" for="Masculino">Masculino</label>
+                </div>
+              </div>
+              <!--Formacao-->
+              <div class="form-group row">
+                <label for="Formacao">Formação</label>
+                <select class="form-control" id="Formacao">
+                  <option>Ensino Fundamental</option>
+                  <option>Ensimo Médio</option>
+                  <option>Ensino Superior</option>
+                </select>
+              </div>
+              <!--Profissao-->
+              <div class="form-group row">
+                <label for="Profissao">Profissao</label>
+                <select class="form-control" id="Profissao">
+                  <option>Dev. FullStack</option>
+                  <option>Dev. Frontend</option>
+                  <option>Dev. Backend</option>
+                  <option>Analista de sistemas</option>
+                </select>
+              </div>
+              <!--CPF-->
+              <div class="form-group row">
+                <label for="CPF">CPF</label>
+                <input type="text" class="form-control" id="CPF">
+              </div>
+            </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
