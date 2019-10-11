@@ -1,0 +1,19 @@
+main > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .footer 
+  {
+    color: rgb(0, 0, 0);
+    background-color: #67A8CD;
+  }
+  .footer > .container 
+  {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  code 
+  {
+    font-size: 80%;
+  }
+  

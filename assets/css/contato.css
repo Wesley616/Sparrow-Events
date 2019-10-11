@@ -2,32 +2,9 @@ html
 {
     font-family: "Roboto" !important;
 }
-.color
-{
-    color: rgb(0, 0, 0);
-    background-color:  #00a2ff;
-    border-color: #fdfdfd;
-    padding-top: 5px;
-}
 img
 {
     width: 150px;
-}
-.button
-{
-  transition-duration: 0.4s;
-}
-.button:hover
-{
-    color: rgb(255, 255, 255);
-    background-color: #295872;
-    border-color: #ffffff
-}
-.button:active
-{
-    color: rgb(255, 255, 255);
-    background-color:  #295872;
-    border-color: #ffffff
 }
 .bg-color
 {

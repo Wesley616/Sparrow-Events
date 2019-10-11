@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" class="h-100">
 
 <head>
   <!-- Required meta tags -->
@@ -7,12 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap">
+  <link rel="stylesheet" href="assets/css/footer.css">
   <link rel="stylesheet" href="assets/css/sparrow-events.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <title>Sparrow Events-Home</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
+  <!--#region BARRA DE NAVEGAÇÃO -->
   <nav class="navbar navbar-expand-lg navbar-light bg-color">
     <a class="navbar-brand" href="#">Sparrow Events</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -46,10 +48,13 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-        <button class="btn btn-outline-success my-2 my-sm-0 color button" type="submit">Pesquisar</button>
+        <button class="btn btn-outline-dark my-2 my-sm-0 color button" type="submit">Pesquisar</button>
       </form>
     </div>
-  </nav>
+  </nav> 
+  <!--#endregion-->
+  
+  <!--#region JUMBOTRON-->
   <!-- Principal jumbotron, para a principal mensagem de marketing ou call to action -->
   <div class="jumbotron">
     <div class="container">
@@ -59,44 +64,67 @@
       <p><a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais &raquo;</a></p>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
+  <!--#endregion-->
+ 
+  <!--#region CORPO DA PAGINA-->
+  <main role="main" class="flex-shrink-0 mb-5">
+    <div class="container">
+      <div class="row">
         <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="assets/img/img.svg" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo
-              do card.</p>
-            <a href="#" class="btn btn-primary">Visitar</a>
+          <div class="card">
+            <a href="evento-detalhar.html">
+              <img class="card-img-top" src="assets/img/Rogk7.jpg" alt="Imagem de capa do card">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Título do card</h5>
+              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                conteúdo
+                do card.</p>
+              <a href="evento-detalhar.html" class="btn btn-primary">Visitar</a>
+            </div>
           </div>
         </div>
-        </div>
         <div class="col-sm-4">
-        <div class="card " style="width: 18rem;">
-          <img class="card-img-top" src="assets/img/img.svg" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo
-              do card.</p>
-            <a href="#" class="btn btn-primary">Visitar</a>
+          <div class="card ">
+            <a href="evento-detalhar.html">
+              <img class="card-img-top" src="assets/img/Rock8.jpg" alt="Imagem de capa do card">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Título do card</h5>
+              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                conteúdo
+                do card.</p>
+              <a href="evento-detalhar.html" class="btn btn-primary">Visitar</a>
+            </div>
           </div>
         </div>
-        </div>
         <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="assets/img/img.svg" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo
-              do card.</p>
-            <a href="#" class="btn btn-primary">Visitar</a>
+          <div class="card">
+            <a href="evento-detalhar.html">
+              <img class="card-img-top" src="assets/img/Rock6.jpg" alt="Imagem de capa do card">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Título do card</h5>
+              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                conteúdo
+                do card.</p>
+              <a href="evento-detalhar.html" class="btn btn-primary">Visitar</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
+  </main>
+  <!--#endregion-->
+  
+  <!--#region RODA PÉ-->
+  <footer class="footer mt-auto mt py-3">
+    <div class="container">
+      Coloque o conteúdo do sticky footer aqui.
+    </div>
+  </footer>
+  <!--#endregion-->
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
